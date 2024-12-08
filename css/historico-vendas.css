@@ -1,0 +1,46 @@
+.historico-vendas-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin: 1rem 4rem;
+    padding: 2rem 6rem;
+}
+
+.historico-vendas-principal h1 {
+    color: #493628;
+    font-weight: 500;
+}
+
+.historico-vendas-principal-busca {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.historico-vendas-principal-busca-nome {
+    background-color: #E4E0E1;
+    border-radius: 4px;
+    width: 600px;
+    height: 1.5rem;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    border: 2px solid #493628;
+    font-size: 1rem;
+    color: #493628;
+}
+
+th, td {
+    border: 1px solid #493628;
+    padding: 1rem;
+    text-align: left;
+}
+
+th {
+    background-color: #D6C0B3;
+    font-weight: bold;
+}
+

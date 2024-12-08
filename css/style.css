@@ -4,6 +4,9 @@
 @import "cadastro-produto.css";
 @import "nova-venda.css";
 @import "vendas.css";
+@import "clientes.css";
+@import "estoque.css";
+@import "historico-vendas.css";
 
 /* Geral */
 
