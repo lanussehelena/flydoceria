@@ -1,14 +1,24 @@
+@import "login.css";
+@import "pagina-inical.css";
+
 /* Geral */
 
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    height: 100%;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
     background-color: #E4E0E1;
     color: #493628;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
 }
 
 a {

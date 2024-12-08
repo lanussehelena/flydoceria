@@ -1,0 +1,17 @@
+/* Main */
+.conteudo-principal-pg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+    margin: 4rem;
+    padding: 6rem;
+    background-color: #D6C0B3;
+    border-radius: 1.5rem;
+}
+
+.conteudo-principal-botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}

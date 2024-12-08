@@ -1,0 +1,52 @@
+/* Main */
+
+.conteudo-principal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 4rem;
+    padding: 6rem;
+    background-color: #D6C0B3;
+    border-radius: 1.5rem;
+}
+
+.conteudo-principal-entrar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteudo-principal-entrar-h1 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.conteudo-principal-img {
+    max-width: 200px;
+}
+
+.conteudo-principal-input {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.conteudo-principal-input-email,
+.conteudo-principal-input-senha {
+    background-color: #D6C0B3;
+    border-radius: 4px;
+    width: 600px;
+    height: 1.5rem;
+}
+
+.conteudo-principal-input-esqueceu {
+    text-align: end;
+}
+
+.botao {
+    background-color: #493628;
+    color: #E4E0E1;
+    border-radius: 4px;
+    padding: 0.5rem 3rem;
+    align-self: center;
+}
