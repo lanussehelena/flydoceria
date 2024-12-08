@@ -1,0 +1,16 @@
+/* Main */
+.vendas-conteudo-principal-pg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+    margin: 4rem;
+    padding: 6rem;
+    background-color: #D6C0B3;
+    border-radius: 1.5rem;
+}
+
+.vendas-conteudo-principal-botoes {
+    display: flex;
+    gap: 6rem;
+}

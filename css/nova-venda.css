@@ -10,7 +10,6 @@
     padding: 1rem 4rem;
     background-color: #D6C0B3;
     border-radius: 1.5rem;
-
 }
 
 .conteudo-principal-novavenda-bg-container {
@@ -40,6 +39,12 @@
     gap: 2rem;
 }
 
+.nova-venda-pesquisar-cliente {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
 .input {
     background-color: #D6C0B3;
     border-radius: 4px;
@@ -60,6 +65,15 @@
     gap: 3rem;
 }
 
+input[type="radio"] {
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #493628;
+    border-radius: 4px;
+    background-color: #D6C0B3;
+}
+
 .data-horario-entrega {
     display: flex;
     gap: 2rem;
@@ -74,6 +88,12 @@
     display: flex;
     flex-direction: column;
     height: 100%;
+}
+
+.nova-venda-protudos-pesquisa {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 .container-totalcompra-codvenda {
