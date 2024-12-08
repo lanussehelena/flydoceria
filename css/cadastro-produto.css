@@ -1,0 +1,58 @@
+.conteudo-principal-novoproduto h1 {
+    text-align: center;
+    margin: 2rem;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.conteudo-principal-novoproduto-bg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin: 4rem;
+    padding: 6rem;
+    background-color: #D6C0B3;
+    border-radius: 1.5rem;
+}
+
+.conteudo-principal-novoproduto-bg h2 {
+    text-align: right;
+    font-weight: 300;
+    font-size: 1.375rem;
+}
+
+.conteudo-principal-novoproduto-bg-menor {
+    display: flex;
+    gap: 2rem;
+}
+
+.input {
+    background-color: #D6C0B3;
+    border-radius: 4px;
+    width: 600px;
+    height: 1.5rem;
+    border: 2px solid #493628;
+}
+
+.input-menor {
+    background-color: #D6C0B3;
+    border-radius: 4px;
+    width: 282px;
+    height: 1.5rem;
+    border: 2px solid #493628;
+}
+
+.textarea {
+    resize: none;
+    background-color: #D6C0B3;
+    border-radius: 4px;
+    width: 600px;
+    border: 2px solid #493628;
+}
+
+.conteudo-principal-novoproduto-bg-botao {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
