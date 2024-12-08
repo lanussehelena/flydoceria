@@ -1,0 +1,93 @@
+.conteudo-principal-novavenda h1 {
+    text-align: center;
+    margin: 2rem;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.conteudo-principal-novavenda-bg {
+    margin: 4rem;
+    padding: 1rem 4rem;
+    background-color: #D6C0B3;
+    border-radius: 1.5rem;
+
+}
+
+.conteudo-principal-novavenda-bg-container {
+    display: flex;
+    margin: 2rem;
+    padding: 2rem;
+    gap: 4rem;
+}
+
+.conteudo-principal-novavenda-bg-esquerda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    background-color: #D6C0B3;
+    border-radius: 1.5rem;
+}
+
+.conteudo-principal-novavenda-bg h2 {
+    font-weight: 300;
+    font-size: 1.375rem;
+    align-self: baseline;
+}
+
+.conteudo-principal-novavenda-bg-menor {
+    display: flex;
+    gap: 2rem;
+}
+
+.input {
+    background-color: #D6C0B3;
+    border-radius: 4px;
+    width: 600px;
+    height: 1.5rem;
+}
+
+.input-menor {
+    background-color: #D6C0B3;
+    border-radius: 4px;
+    width: 282px;
+    height: 1.5rem;
+}
+
+.opcoes-entrega {
+    display: flex;
+    align-self: baseline;
+    gap: 3rem;
+}
+
+.data-horario-entrega {
+    display: flex;
+    gap: 2rem;
+}
+
+.conteudo-principal-novavenda-bg-direita {
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo-principal-novavenda-bg-direita-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.container-totalcompra-codvenda {
+    margin-top: auto;
+}
+
+.total-compra, .codigo-venda {
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteudo-principal-novavenda-bg-botao {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+    justify-content: center;
+}
