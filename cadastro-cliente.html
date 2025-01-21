@@ -29,23 +29,16 @@
             <h1>Novo cliente</h1>
             <div class="conteudo-principal-novocliente-bg">
                 <h2>Dados do cliente:</h2>
-                <input class="novocliente-nome input" type="text" name="nome" id="nome" placeholder="Nome do cliente">
-                <input class="novocliente-endereco input" type="text" name="endereco" id="endereco" placeholder="Endereço">
-                <div class="conteudo-principal-novocliente-bg-menor">
-                    <input class="novocliente-bairro input-menor" type="text" name="bairro" id="bairro" placeholder="Bairro">
-                    <input class="novocliente-cidade input-menor" type="text" name="cidade" id="cidade" placeholder="Cidade">
-                </div>
-                <div class="conteudo-principal-novocliente-bg-menor">
-                    <input class="novocliente-cep input-menor" type="text" name="cep" id="cep" placeholder="CEP">
-                    <input class="novocliente-telefone input-menor" type="text" name="telefone" id="telefone" placeholder="Telefone">
-                </div>
-                <input class="novocliente-email input" type="text" name="email" id="email" placeholder="E-mail">
-                <input class="novocliente-nascimento input-menor" type="text" name="nascimento" id="nascimento" placeholder="Data de nascimento">
-                <div class="conteudo-principal-novocliente-bg-botao">
-                    <a href="" class="botao">Salvar</a>
-                    <a href="" class="botao">Cancelar</a>
-                </div>
+                <form id="customerForm">
+                    <label for="nome">Nome do cliente:</label>
+                    <input class="novocliente-nome input" type="text" name="nome" id="nome">
+                    
+                    <label for="contato">Contato:</label>
+                    <input class="novocliente-telefone input-menor" type="tel" name="contato" id="contato">
 
+                    <button type="submit">Salvar</button>
+                    <div class="message" id="message"></div>
+                </form>
             </div>
 
 
@@ -56,6 +49,6 @@
         </footer>
     </div>
 
-    <script src="./script/script.js"></script>
+    <script src="./script/cadastro-cliente.js"></script>
 </body>
 </html> 

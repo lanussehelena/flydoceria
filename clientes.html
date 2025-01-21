@@ -28,48 +28,21 @@
         <main class="clientes-principal">
             <h1>Lista de clientes</h1>
             <div class="clientes-principal-busca">
-                <input class="clientes-principal-busca-nome" type="text" name="nome" id="nome" placeholder="Pesquisar cliente">
-                <a href="" class="nova-venda-pesquisa"><img src="./imagens/search.png" alt=""></a>     
+                <button id="loadData">Carregar clientes</button>
             </div>
-            <table class="tabela">
+            <table class="tabela" id="dataTable">
                 <colgroup>
                     <col style="width: 2rem">
                     <col style="width: 10rem">
-                    <col style="width: 2rem">
                 </colgroup>
                 <thead>
                     <tr>
-                        <th>ID</th>
                         <th>Nome</th>
                         <th>Telefone</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td>001</td>
-                        <td>Maria Silva</td>
-                        <td>(83) 9999-9991</td>
-                    </tr>
-                    <tr>
-                        <td>002</td>
-                        <td>Tereza Costa</td>
-                        <td>(83) 9999-9992</td>
-                    </tr>
-                    <tr>
-                        <td>003</td>
-                        <td>Clara Santos</td>
-                        <td>(85) 9999-9993</td>
-                    </tr>
-                    <tr>
-                        <td>004</td>
-                        <td>João Teixeira</td>
-                        <td>(83) 9999-9994</td>
-                    </tr>
-                    <tr>
-                        <td>005</td>
-                        <td>José Cunha</td>
-                        <td>(85) 9999-9995</td>
-                    </tr>
+                    
                 </tbody>
             </table>
         </main>
@@ -78,6 +51,6 @@
         </footer>
     </div>
 
-    <script src="./script/script.js"></script>
+    <script src="./script/clientes.js"></script>
 </body>
 </html> 
