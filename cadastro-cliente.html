@@ -29,14 +29,17 @@
             <h1>Novo cliente</h1>
             <div class="conteudo-principal-novocliente-bg">
                 <h2>Dados do cliente:</h2>
-                <form id="customerForm">
+                <form class="conteudo-principal-novocliente-form" id="customerForm">
                     <label for="nome">Nome do cliente:</label>
                     <input class="novocliente-nome input" type="text" name="nome" id="nome">
                     
                     <label for="contato">Contato:</label>
                     <input class="novocliente-telefone input-menor" type="tel" name="contato" id="contato">
 
-                    <button type="submit">Salvar</button>
+                    <label for="mensagem">Pedido:</label>
+                    <input class="novocliente-nome input" type="text" name="mensagem" id="mensagem">
+
+                    <button type="submit" class="botao">Salvar</button>
                     <div class="message" id="message"></div>
                 </form>
             </div>

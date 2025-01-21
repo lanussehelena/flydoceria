@@ -10,6 +10,7 @@ async function createCustomer(event) {
 
     const nome = document.getElementById('nome').value;
     const contato = document.getElementById('contato').value;
+    const pedido = document.getElementById('mensagem').value;
 
     try {
         const response = await fetch(apiurl, {
@@ -17,10 +18,11 @@ async function createCustomer(event) {
             headers: {
                 'Content-Type': 'application/json'
             },
-            body: JSON.stringify({ nome, contato })
+            body: JSON.stringify({ nome, contato, pedido })
         });
         if (!response.ok) {
             throw new Error(`Erro: ${response.statusText}`);
+            console.log(response)
         }
 
         const data = await response.json();

@@ -1,3 +1,4 @@
 {
-    "cliente": [{"nome" : "Maria", "contato": "(XX) XXXX-XXXX"}, {"nome" : "Maria", "contato": "(XX) XXXX-XXXX"}]
+    "cliente": [{"nome" : "Maria", "contato": "(XX) XXXX-XXXX", "mensagem" : "Bolo de pote de chocolate"}, {"nome" : "João", "contato": "(XX) XXXX-XXXX", "mensagem" : "Bolo de pote de cenoura"}, {"nome" : "Lucia", "contato": "(XX) XXXX-XXXX", "mensagem" : "10 brigadeiros"}, {"nome" : "Sonia", "contato": "(XX) XXXX-XXXX", "mensagem" : "Fatia de torta prestígio"}]
 }
+
